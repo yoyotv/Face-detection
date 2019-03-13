@@ -1,19 +1,20 @@
 #ifndef READ_H
 #define READ_H
 #include <opencv2/opencv.hpp>
+
+#define figure_height 112
+#define figure_width 92
+
 using namespace std;
+
 
 class image_content {
 public:
 	int height;
 	int width;
-	int content[112*92];         //contents[all pixels]
+	int content[figure_height *figure_width];         //contents[all pixels]
 };
 
-class image_content_matrix {
-public:
-	int matrix[400][112*92];     //store all image information in 2 dimesion, [number of all images][all pixels]
-};
 
 namespace read {
 	int video(string path);

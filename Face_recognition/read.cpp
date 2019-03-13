@@ -1,4 +1,5 @@
 #include <opencv2/opencv.hpp>
+#include "information.h"
 #include "read.h"
 using namespace cv;
 using namespace std;
@@ -8,27 +9,25 @@ image_content read::figure(string path)
 {
 	Mat image;
 	image_content image_output;
-	image = imread(path, CV_LOAD_IMAGE_COLOR);   // Read the file
+	image = imread(path, 0);   // Read the file
 
 
-	/*
-	namedWindow("Display window", WINDOW_AUTOSIZE);// Create a window for display.
-	imshow("Display window", image);                   // Show our image inside it.
-	*/
+	
+	//namedWindow("Display window", WINDOW_AUTOSIZE);// Create a window for display.
+	//imshow("Display window", image);                   // Show our image inside it.
+	
 
 
 
 	waitKey(0);                // Wait for a keystroke in the window
 
+	image_output.width = image.cols;
+	image_output.height = image.rows;
 
-	image_output.height = image.cols;
-	image_output.width = image.rows;
-
-
-
-	for (int i = 0,count = 0; i < image.cols; i++) {
-		for (int j = 0; j < image.rows; j++) {
-			image_output.content[count] = image.at<uchar>(Point(i, j));     //store the pixel value from Mat to int
+	
+	for (int i = 0,count = 0; i < image_output.height; i++) {
+		for (int j = 0; j < image_output.width; j++) {
+			image_output.content[count] = image.at<uchar>(i, j);  //store the pixel value from Mat to int
 			count++;
 		}
 	}
@@ -58,5 +57,8 @@ int read::video(string input) {
 	}
 	return 0;
 }
+
+
+
 
 

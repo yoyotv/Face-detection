@@ -19,10 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="function.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="read.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="function.h" />
+    <ClInclude Include="information.h" />
     <ClInclude Include="read.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
