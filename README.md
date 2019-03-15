@@ -5,13 +5,19 @@ This repository refer to the paper "Eigenfaces for recognition"[[1]](http://www.
 
 The dataset[[2]](https://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html) that I used is a simple dataset provided by AT&T Laboratories Cambridge. 
 
-Also, this repository is just for imporving my ability of implement the concept of only reading paper.So the code follows the steps that paper wrote. And because this is just for improving the ability of implementation, I just use the first 50 images (5 classes) to classify.
+Also, this repository is just for imporving my ability of implement the concept of only reading paper.So the code follows the steps that paper wrote. And because this is just for improving the ability of implementation, I just used the first 50 images (5 classes) to classify.
 
 ## Approach 
 
 Pricipal component analysis (PCA)
 Eigenvector and eigenvalue.
 Detail is all in the paper.
+
+I write the code to calculate eigenvectors in c++, but it is just too slow.
+
+So~, because of the calculation spped of Matlab, I tend to save the image information by c++ first, and calculate eigenvectors by Matlab. After that, c++ read the eigenvectors results by txt and keep going on.
+
+
 
 
 ## GET started
