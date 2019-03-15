@@ -30,11 +30,9 @@ And just run the main.cpp !
 
 If everthing is fine.
 
-You can see somthing like this ![result]()
+You can see somthing like this ![result](https://raw.githubusercontent.com/yoyotv/Face-detection-and-recognition/master/figures/result.JPG)
 
 ## References
 
-[1] Jie Hu, Li Shen, Gang Sun, "Squeeze-and-Excitation Networks" ; The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018, pp. 7132-7141 
-
-[2] J.S. Albus (1975). "A New Approach to Manipulator Control: the Cerebellar Model Articulation Controller (CMAC)". In: Trans. ASME, Series G. Journal of Dynamic Systems, Measurement and Control, Vol. 97, pp. 220–233, 1975.
+[1] M. Turk, and A. Pentland, "Eigenfaces for Recognition," J. Cognitive Neuroscience, vol. 3, no. 1, 1991.
 
