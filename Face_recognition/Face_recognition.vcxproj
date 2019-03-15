@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="functionn.cpp" />
+    <ClCompile Include="information.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="read.cpp" />
   </ItemGroup>
@@ -106,8 +107,10 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>C:\opencv\build\x86\vc14\lib\opencv_core2413d.lib;C:\opencv\build\x86\vc14\lib\opencv_highgui2413d.lib;C:\opencv\build\x86\vc14\lib\opencv_imgproc2413d.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <StackReserveSize>500000000</StackReserveSize>
-      <StackCommitSize>500000000</StackCommitSize>
+      <StackReserveSize>800000000</StackReserveSize>
+      <StackCommitSize>800000000</StackCommitSize>
+      <HeapReserveSize>800000000</HeapReserveSize>
+      <HeapCommitSize>800000000</HeapCommitSize>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">

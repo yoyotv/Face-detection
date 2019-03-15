@@ -5,13 +5,13 @@ a=fopen('test2.txt','r');
 s=fscanf(a,'%f',inf);
 all=zeros(10304,10304);
 %Calculate the matrix A
-for i=1:400
+for i=1:49
     q=s(1+10304*(i-1):10304*i);  %10304*1
     i
       all=all +q*q';
 end
 
-all=all./400;
+all=all./49;
 
 A=all;   %Obtain A !
 
@@ -26,13 +26,13 @@ vector6=v(:,6);
 
 save('eigenvalues.txt','d','-ascii')
 save('eigenvector1.txt','vector1','-ascii')
-save('eigenvector1.txt','vector2','-ascii')
-save('eigenvector1.txt','vector3','-ascii')
-save('eigenvector1.txt','vector4','-ascii')
-save('eigenvector1.txt','vector5','-ascii')
-save('eigenvector1.txt','vector6','-ascii')
+save('eigenvector2.txt','vector2','-ascii')
+save('eigenvector3.txt','vector3','-ascii')
+save('eigenvector4.txt','vector4','-ascii')
+save('eigenvector5.txt','vector5','-ascii')
+save('eigenvector6.txt','vector6','-ascii')
 
 
-
+imshow(mat2gray(reshape(vector1,[92,112])))
 
 
