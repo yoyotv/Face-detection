@@ -1,5 +1,5 @@
 # Face-detection-and-recognition
-Face detection and recognition without using opencv.
+Face detection and recognition without using opencv algorithm.
 
 This repository refer to the paper "Eigenfaces for recognition"[[1]](http://www.face-rec.org/algorithms/pca/jcn.pdf)  which is the first implementation of eigenvectors in recognizing faces.
 
@@ -24,7 +24,7 @@ So~, because of the calculation spped of Matlab, I tend to save the image inform
 
 Success in :
 
-C++ 11, opencv (just for reading and diplaying)
+C++ 11, opencv (just for reading and diplaying), Microsoft visual studio 2015.
 
 I do use opencv, but just for reading and diplay the image.
 
