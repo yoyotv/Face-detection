@@ -5,6 +5,8 @@ This repository refer to the paper "Eigenfaces for recognition"[[1]](http://www.
 
 Also, this repository is just for imporving my ability of implement the concept of only reading paper.So the code follows the steps that paper wrote.
 
+The dataset[[2]](https://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html) used the popular simple dataset provided by AT&T Laboratories Cambridge.
+
 ## Approach 
 
 Pricipal component analysis (PCA)
@@ -30,10 +32,12 @@ And just run the main.cpp !
 
 If everthing is fine.
 
-First we can check the eigenface!
+First we can check the eigenface
+
 ![eigenface](https://raw.githubusercontent.com/yoyotv/Face-detection-and-recognition/master/Face_recognition/Eigenface.jpg)
 
-And have some test!
+And have some test
+
 ![result](https://raw.githubusercontent.com/yoyotv/Face-detection-and-recognition/master/figures/result.JPG)
 
 
@@ -42,3 +46,4 @@ And have some test!
 
 [1] M. Turk, and A. Pentland, "Eigenfaces for Recognition," J. Cognitive Neuroscience, vol. 3, no. 1, 1991.
 
+[2] "The Database of Faces," AT&T Laboratories Cambridge, (2002). [Online]. Available: http://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html.
