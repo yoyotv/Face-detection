@@ -32,11 +32,11 @@ And just run the main.cpp !
 
 If everthing is fine.
 
-First we can check the eigenface
+First we can check the eigenface.
 
 ![eigenface](https://raw.githubusercontent.com/yoyotv/Face-detection-and-recognition/master/Face_recognition/Eigenface.jpg)
 
-And have some test
+And have some test.
 
 ![result](https://raw.githubusercontent.com/yoyotv/Face-detection-and-recognition/master/figures/result.JPG)
 
