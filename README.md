@@ -30,9 +30,15 @@ And just run the main.cpp !
 
 If everthing is fine.
 
-You can see somthing like this ![result](https://raw.githubusercontent.com/yoyotv/Face-detection-and-recognition/master/figures/result.JPG)
+First we can check the eigenface!
+![eigenface](https://raw.githubusercontent.com/yoyotv/Face-detection-and-recognition/master/Face_recognition/Eigenface.jpg)
+
+And have some test!
+![result](https://raw.githubusercontent.com/yoyotv/Face-detection-and-recognition/master/figures/result.JPG)
+
 
 ## References
+
 
 [1] M. Turk, and A. Pentland, "Eigenfaces for Recognition," J. Cognitive Neuroscience, vol. 3, no. 1, 1991.
 
