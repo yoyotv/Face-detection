@@ -10,7 +10,7 @@ Also, this repository is just for imporving my ability of implement the concept 
 ## Approach 
 
 Pricipal component analysis (PCA)
-Eigenvector and eigenvalue
+Eigenvector and eigenvalue.
 Detail is all in the paper.
 
 
