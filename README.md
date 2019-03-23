@@ -1,7 +1,7 @@
 # Face-detection-and-recognition
 Face detection and recognition without using opencv algorithm.
 
-This repository refer to the paper "Eigenfaces for recognition"[[1]](http://www.face-rec.org/algorithms/pca/jcn.pdf)  which is the first implementation of eigenvectors in recognizing faces.
+This repository refer to the paper "Eigenfaces for recognition"[[1]](http://www.face-rec.org/algorithms/pca/jcn.pdf)  which is the first implementation of eigenvectors in recognizing faces and "Eigenfaces versusFisherfaces: Recognition Using Class Specific Linear Projection"[[3]].
 
 The dataset[[2]](https://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html) that I used is a simple dataset provided by AT&T Laboratories Cambridge. 
 
@@ -70,3 +70,5 @@ This is the result base on the first 6 fisher face.
 [1] M. Turk, and A. Pentland, "Eigenfaces for Recognition," J. Cognitive Neuroscience, vol. 3, no. 1, 1991.
 
 [2] "The Database of Faces," AT&T Laboratories Cambridge, (2002). [Online]. Available: http://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html.
+
+[3] P. Belhumeur, J. Hespanda, and D. Kriegman, “Eigenfaces versusFisherfaces: Recognition Using Class Specific Linear Projection,”IEEE Trans. Pattern Analysis and Machine Intelligence,vol. 19, no. 7,pp. 711-720, July 1997.
