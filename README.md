@@ -36,28 +36,30 @@ And just run the main.cpp !
 
 ## Results
 
-If everthing is fine.
+
+
+Applying eigenvector, if everthing is fine.
 
 First we can check the eigenface.
-
-![fisherface](https://raw.githubusercontent.com/yoyotv/Face-detection-and-recognition/master/Face_recognition_fisher/For_matlab/fisher.jpg=112x92)
-
-And have some test.
-This is the result base on the first 6 fisher face.
-
-![result](https://raw.githubusercontent.com/yoyotv/Face-detection-and-recognition/master/Face_recognition_fisher/fisher.JPG)
-
-
-
-applying fisher If everthing is fine.
-
-First we can check the fisherface.
 
 ![eigenface](https://raw.githubusercontent.com/yoyotv/Face-detection-and-recognition/master/Face_recognition/Eigenface.jpg)
 
 And have some test.
 
 ![result](https://raw.githubusercontent.com/yoyotv/Face-detection-and-recognition/master/figures/result.JPG)
+
+
+Applying fisher, if everthing is fine.
+
+First we can check the fisherface.
+
+
+![fisherface](https://raw.githubusercontent.com/yoyotv/Face-detection-and-recognition/master/Face_recognition_fisher/For_matlab/fisher.jpg = 112x92)
+
+And have some test.
+This is the result base on the first 6 fisher face.
+
+![result](https://raw.githubusercontent.com/yoyotv/Face-detection-and-recognition/master/Face_recognition_fisher/fisher.JPG)
 
 
 ## References
