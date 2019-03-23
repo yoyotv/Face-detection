@@ -53,7 +53,10 @@ Applying fisher, if everthing is fine.
 
 First we can check the fisherface.
 
-<img src="https://raw.githubusercontent.com/yoyotv/Face-detection-and-recognition/master/Face_recognition_fisher/For_matlab/fisher.jpg" width="92", height="112">
+<img src="https://raw.githubusercontent.com/yoyotv/Face-detection-and-recognition/master/Face_recognition_fisher/For_matlab/fisher.jpg" width="92" height="112">
+  
+
+   
   
 And have some test.
 This is the result base on the first 6 fisher face.
