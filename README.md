@@ -40,7 +40,7 @@ If everthing is fine.
 
 First we can check the eigenface.
 
-![fisherface](https://raw.githubusercontent.com/yoyotv/Face-detection-and-recognition/master/Face_recognition_fisher/For_matlab/fisher.jpg)
+![fisherface](https://raw.githubusercontent.com/yoyotv/Face-detection-and-recognition/master/Face_recognition_fisher/For_matlab/fisher.jpg=112x92)
 
 And have some test.
 This is the result base on the first 6 fisher face.
