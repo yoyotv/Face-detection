@@ -15,7 +15,7 @@ Detail is all in the paper.
 
 I write the code to calculate eigenvectors in c++, but it is just too slow.
 
-So~, because of the calculation spped of Matlab, I tend to save the image information by c++ first, and calculate eigenvectors by Matlab. After that, c++ read the eigenvectors results by txt and keep going on.
+Because of the calculation speed of Matlab and the convenience. Image information will proceed by c++ first, and calculate eigenvectors by Matlab. After that, c++ read the eigenvectors results by txt and keep going on.
 
 
 
